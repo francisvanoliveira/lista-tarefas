@@ -6,13 +6,13 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: "/",
     element: <App />,
   },
   {
-    path: '/task',
+    path: "/task",
     element: <TaskPage />,
-  }
+  },
 ])
 
 createRoot(document.getElementById('root')).render(
